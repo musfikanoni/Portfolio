@@ -3,6 +3,7 @@ import Navbar from "../Navbar";
 import AboutMe from "../AboutMe";
 import Hero from "../Hero";
 import Footer from "../Footer";
+import Skills from "../Skills";
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Outlet></Outlet>
             <Hero></Hero>
             <AboutMe></AboutMe>
+            <Skills></Skills>
             <Footer></Footer>
         </div>
     );
