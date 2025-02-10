@@ -19,12 +19,16 @@ const Navbar = () => {
         </Link>
         </li>
 
-        <li><Link>Skills</Link></li>
+        <li>
+            <Link to="skills" activeClass="active" smooth={true} offset={50} duration={500} onSetActive={handleSetActive}>
+                skills
+            </Link>
+        </li>
         <li><Link>Projects</Link></li>
         <li><Link>Contact Me</Link></li>
     </>
     return (
-        <div className="backdrop-blur bg-white/5 sticky top-0">
+        <div className="backdrop-blur bg-white/5 sticky z-10 top-0">
             <div className="navbar max-w-7xl mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -40,7 +44,7 @@ const Navbar = () => {
                     <img src={logo} className='h-14' alt="" />
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                    <ul className="menu menu-horizontal text-lg font-medium px-1">
                         {links}
                     </ul>
                 </div>
