@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import * as motion from "motion/react-client";
+// import { Pagination, Navigation } from 'swiper/modules';
 import '../styles.css';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -25,9 +25,9 @@ const Skills = () => {
 
 
     return (
-        <div id="skills" >
+        <div id="skills" className='bg-green-100' >
             <h2 className='text-center text-2xl font-bold'>My Skills</h2>
-            <section className='px-4 lg:px-0 max-w-7xl mx-auto'>
+            <section className='px-4 py-5 lg:px-0 max-w-7xl mx-auto'>
 
             <Swiper
                 onSwiper={setSwiperRef}
@@ -59,104 +59,71 @@ const Skills = () => {
                     },
                 }}
             >
-                <SwiperSlide className='border border-green-300 rounded-lg'>
-                <motion.div className="flex justify-center gap-5 items-center mt-3"
-                        whileHover={{ scale: 1.2 }}
-                        whileTap={{ scale: 0.8 }}  
-                    >
+                <SwiperSlide className=' rounded-lg'>
+                    <div className="flex justify-center gap-5 items-center mt-3">
                         <img className="h-18 w-auto" src={html} alt="" />
                         <p className="text-xl font-bold">HTML 5</p>
-                    </motion.div>
+                    </div>
                 </SwiperSlide>
-                <SwiperSlide className='border border-green-300 rounded-lg'>
-                <motion.div className="flex justify-center gap-5 items-center mt-3"
-                        whileHover={{ scale: 1.2 }}
-                        whileTap={{ scale: 0.8 }}  
-                    >
+                <SwiperSlide className=' rounded-lg'>
+                    <div className="flex justify-center gap-5 items-center mt-3">
                         <img className="h-18" src={css} alt="" />
                         <p className="text-xl font-bold">CSS 3</p>
-                    </motion.div>
+                    </div>
                 </SwiperSlide>
-                <SwiperSlide className='border border-green-300 rounded-lg'>
-                <motion.div className="flex justify-center gap-5 items-center mt-5"
-                        whileHover={{ scale: 1.2 }}
-                        whileTap={{ scale: 0.8 }}  
-                    >
+                <SwiperSlide className=' rounded-lg'>
+                    <div className="flex justify-center gap-5 items-center mt-5">
                         <img className="h-14" src={tailwind} alt="" />
                         <p className="text-xl font-bold">Tailwindcss</p>
-                    </motion.div>
+                    </div>
                 </SwiperSlide>
-                <SwiperSlide className='border border-green-300 rounded-lg'>
-                <motion.div className="flex justify-center gap-5 items-center mt-3"
-                        whileHover={{ scale: 1.2 }}
-                        whileTap={{ scale: 0.8 }}  
-                    >
+                <SwiperSlide className=' rounded-lg'>
+                    <div className="flex justify-center gap-5 items-center mt-3">
                         <img className="h-18" src={bootstrap} alt="" />
                         <p className="text-xl font-bold">Bootstrap</p>
-                    </motion.div>
+                    </div>
                 </SwiperSlide>
-                <SwiperSlide className='border border-green-300 rounded-lg'>
-                <motion.div className="flex justify-center gap-5 items-center mt-3"
-                        whileHover={{ scale: 1.2 }}
-                        whileTap={{ scale: 0.8 }}  
-                    >
+                <SwiperSlide className=' rounded-lg'>
+                    <div className="flex justify-center gap-5 items-center mt-3">
                         <img className="h-18" src={js} alt="" />
                         <p className="text-xl font-bold">JavaScript</p>
-                    </motion.div>
+                    </div>
                 </SwiperSlide>
-                <SwiperSlide className='border border-green-300 rounded-lg'>
-                <motion.div className="flex justify-center gap-5 items-center mt-3"
-                        whileHover={{ scale: 1.5 }}
-                        whileTap={{ scale: 0.9 }}  
-                    >
+                <SwiperSlide className=' rounded-lg'>
+                    <div className="flex justify-center gap-4 items-center mt-3">
                         <img className="h-20" src={react} alt="" />
                         <p className="text-xl font-bold">React Js</p>
-                    </motion.div>
+                    </div>
                 </SwiperSlide>
-                <SwiperSlide className='border border-green-300 rounded-lg'>
-                    <motion.div className="flex justify-center gap-5 items-center mt-3"
-                        whileHover={{ scale: 1.2 }}
-                        whileTap={{ scale: 0.8 }}  
-                    >
+                <SwiperSlide className=' rounded-lg'>
+                    <div className="flex justify-center gap-5 items-center mt-3">
                         <img className="h-18" src={firebase} alt="" />
                         <p className="text-xl font-bold">Firebase</p>
-                    </motion.div>
+                    </div>
                 </SwiperSlide>
-                <SwiperSlide className='border border-green-300 rounded-lg'>
-                    <motion.div className="flex justify-center gap-5 items-center mt-3"
-                        whileHover={{ scale: 1.2 }}
-                        whileTap={{ scale: 0.8 }}  
-                    >
+                <SwiperSlide className=' rounded-lg'>
+                    <div className="flex justify-center gap-5 items-center mt-3">
                         <img className="h-18" src={node} alt="" />
                         <p className="text-xl font-bold">Node Js</p>
-                    </motion.div>
+                    </div>
                 </SwiperSlide>
-                <SwiperSlide className='border border-green-300 rounded-lg'>
-                <motion.div className="flex justify-center gap-5 items-center mt-3"
-                        whileHover={{ scale: 1.2 }}
-                        whileTap={{ scale: 0.8 }}  
-                    >
+                <SwiperSlide className=' rounded-lg'>
+                    <div className="flex justify-center gap-5 items-center mt-3">
                         <img className="h-18" src={express} alt="" />
                         <p className="text-xl font-bold">Express Js</p>
-                    </motion.div>
+                    </div>
                 </SwiperSlide>
-                <SwiperSlide className='border border-green-300 rounded-lg'>
-                <motion.div className="flex justify-center gap-5 items-center mt-3"
-                        whileHover={{ scale: 1.2 }}
-                        whileTap={{ scale: 0.8 }}  
-                    >
+                <SwiperSlide className=' rounded-lg'>
+                    <div className="flex justify-center gap-5 items-center mt-3">
                         <img className="h-18" src={mongo} alt="" />
                         <p className="text-xl font-bold">MongoDB</p>
-                    </motion.div>
+                    </div>
                 </SwiperSlide>
-                <SwiperSlide className='border border-green-300 rounded-lg'>
-                <motion.div className="flex justify-center gap-5 items-center mt-3"
-                        whileHover={{ scale: 1.2 }}
-                        whileTap={{ scale: 0.8 }}  
-                    >
+                <SwiperSlide className=' rounded-lg'>
+                    <div className="flex justify-center gap-5 items-center mt-3">
                         <img className="h-18" src={jwt} alt="" />
                         <p className="text-xl font-bold">JWT</p>
-                    </motion.div>
+                    </div>
                 </SwiperSlide>
             </Swiper>
 

@@ -28,7 +28,7 @@ const Navbar = () => {
         <li><Link>Contact Me</Link></li>
     </>
     return (
-        <div className="backdrop-blur bg-white/5 sticky z-10 top-0">
+        <div className="backdrop-blur py-3 bg-white/5 sticky z-10 top-0">
             <div className="navbar max-w-7xl mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -44,7 +44,7 @@ const Navbar = () => {
                     <img src={logo} className='h-14' alt="" />
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal text-lg font-medium px-1">
+                    <ul className="menu menu-horizontal text-green-400 text-[16px] font-medium px-1">
                         {links}
                     </ul>
                 </div>
