@@ -24,8 +24,16 @@ const Navbar = () => {
                 skills
             </Link>
         </li>
-        <li><Link>Projects</Link></li>
-        <li><Link>Contact Me</Link></li>
+        <li>
+            <Link to="projects" activeClass="active" smooth={true} offset={50} duration={500} onSetActive={handleSetActive}>
+                Projects
+            </Link>
+        </li>
+        <li>
+            <Link to="contact" activeClass="active" smooth={true} offset={50} duration={500} onSetActive={handleSetActive}>
+            Contact Me
+            </Link>
+        </li>
     </>
     return (
         <div className="backdrop-blur py-3 bg-white/5 sticky z-10 top-0">
@@ -49,7 +57,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Resume</a>
+                    <a className="btn bg-rose-800" target='_blank' href='https://drive.google.com/file/d/17OwmKdJgE_JgutFR09mXALzANxFVqgF7/view'>Resume</a>
                 </div>
             </div>
         </div>

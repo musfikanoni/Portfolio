@@ -2,8 +2,10 @@ import { HiDownload } from 'react-icons/hi';
 import heroPic from '../assets/pic.png';
 import { MdEmail } from 'react-icons/md';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import { FaSquareXTwitter } from 'react-icons/fa6';
+import { FaLocationDot, FaSquareXTwitter } from 'react-icons/fa6';
+import { Typewriter } from 'react-simple-typewriter';
 const Hero = () => {
+
     return (
         <div className="max-w-7xl mx-auto" id="hero">
             <div className="hero bg-base-200 min-h-screen">
@@ -11,17 +13,29 @@ const Hero = () => {
                     <div className="w-6/12 flex justify-center">
                         <img
                             src={heroPic}
-                            className="" />
+                            className="h-[600px] w-auto" />
                     </div>
                     <div className="w-6/12">
                         <h1 className="text-3xl text-green-500 font-bold">Hi there, I'm <br /><span className="text-7xl"> MUSFIKA NAZNIN ONI</span></h1>
-                        <p className="py-6">
-                        I'm a passionate Web Developer with a mission to create delightful and intuitive digital experiences.
-                        With a strong foundation in design principles and a keen eye for detail,
-                         I specialize in translating complex ideas into user-friendly interfaces that captivate and engage.
-                        </p>
+                        <span style={{ color: 'green', fontWeight: 'bold', fontSize: '32px' }}>
+                            <Typewriter
+                                words={['MERN Stack developer', 'Problem Solver', 'A Life long learner']}
+                                loop={true}
+                                cursor
+                                cursorStyle='_'
+                                typeSpeed={70}
+                                deleteSpeed={50}
+                                delaySpeed={1000}
+                            />
+                            </span>
+
+                        <div className="flex items-center my-3">
+                            <FaLocationDot />
+                            <p>Based in Barishal, Bangladesh</p>
+                        </div>
+                        
                         <a href="https://drive.google.com/file/d/17OwmKdJgE_JgutFR09mXALzANxFVqgF7/view?usp=sharing" target='_blank'>
-                            <button className="btn bg-green-400">Download Resume <HiDownload className='text-xl' /></button>
+                            <button className="btn bg-green-400 text-black">Download Resume <HiDownload className='text-xl' /></button>
                         </a>
                         <div className='flex text-3xl gap-3 mt-3'>
                             <a href="mailto:musfikanoni@gmail.com" target='_blank'><MdEmail /></a>
