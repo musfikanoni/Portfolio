@@ -17,9 +17,9 @@ body {
     padding: 10px;
     border-radius: 10px;
     overflow: hidden;
-    display: inline-block; /* Ensures it wraps around the image */
-    background: rgba(255, 255, 255, 0.1); /* Light transparent background */
-    backdrop-filter: blur(10px); /* ✅ Adds blur inside */
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px); 
   }
   
   .border-gradient::before {
@@ -39,10 +39,37 @@ body {
   .border-gradient img {
     display: block;
     width: 100%;
-    border-radius: inherit; /* Ensures image gets rounded corners */
+    border-radius: inherit;
     position: relative;
-    z-index: 1; /* Ensures image is above the gradient */
+    z-index: 1;
   }
   
-  
+  .ex-border {
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+    backdrop-filter: blur(10px); 
+  }
+ .ex-border::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 3px; 
+    border-radius: inherit; 
+    background: linear-gradient(135deg, #240e15, #ff2c6d);
+    -webkit-mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+    mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+    .ex-border img {
+    display: block;
+    width: 100%;
+    border-radius: inherit;
+    position: relative;
+    z-index: 1; 
+  }
   
