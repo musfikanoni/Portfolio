@@ -52,12 +52,12 @@ const Navbar = () => {
                     <img src={logo} className='h-14' alt="" />
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal text-green-400 text-[16px] font-medium px-1">
+                    <ul className="menu menu-horizontal text-white text-[16px] font-semibold px-1">
                         {links}
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn bg-rose-800" target='_blank' href='https://drive.google.com/file/d/17OwmKdJgE_JgutFR09mXALzANxFVqgF7/view'>Resume</a>
+                    <a className="btn bg-[#FF014F]" target='_blank' href='https://drive.google.com/file/d/17OwmKdJgE_JgutFR09mXALzANxFVqgF7/view'>Resume</a>
                 </div>
             </div>
         </div>
