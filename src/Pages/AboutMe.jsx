@@ -6,13 +6,13 @@ const AboutMe = () => {
             {/* <h2 className="text-3xl text-center font-semibold">About Me</h2> */}
             <div className="hero min-h-screen">
                 <div className=" max-w-7xl mx-auto ex-border">
-                    <div className=" hero-content rounded-xl flex-col lg:flex-row backdrop-blur bg-white/5">
-                        <div className="w-6/12 rounded-lg">
+                    <div className=" hero-content rounded-xl grid lg:grid-cols-2 grid-cols-1 backdrop-blur bg-white/5">
+                        <div className="rounded-lg">
                             <img
                             src={img}
                             className="max-w-sm  shadow-2xl" />
                         </div>
-                        <div className="w-6/12">
+                        <div className="">
                             <h2 className='text-[#FF014F] text-2xl font-semibold'>About Me</h2>
                             <p className="py-6">
                                 Hello! I’m Musfika Naznin Oni, a passionate Fontend developer specializing React ,Tailwind ,Express mongoDb My focus is on making web development faster, easier, and accessible to all developers. Currently, I’m expanding into backend development to grow as a Fontend development and create seamless, robust web applications.

@@ -13,15 +13,12 @@ const Hero = () => {
     <div className="hero-bg">
       <div className="max-w-7xl mx-auto" id="hero">
         <div className="hero min-h-screen relative">
-          <div className="hero-content flex-col lg:flex-row-reverse z-0">
-            <div className="w-6/12 flex justify-end">
-              <img src={heroPic} className=" h-[400px]  w-auto" />
-            </div>
-            <div className="w-6/12">
-              <h1 className="text-3xl text-[#FF014F] font-bold">Hi there, I'm <br /><span className="text-7xl"> MUSFIKA NAZNIN ONI</span></h1>
-              <span style={{ color: '#FF014F', fontWeight: 'bold', fontSize: '32px' }}>
+          <div className="hero-content grid grid-cols-1 lg:grid-cols-2 z-0">
+            <div className="">
+              <h1 className="text-3xl text-[#FF014F] font-bold">Hi there, I'm <br /><span className="lg:text-7xl text-3xl"> MUSFIKA NAZNIN ONI</span></h1>
+              <span style={{ color: '#FF014F', fontWeight: 'bold' }} className="text-xl sm:text-2xl md:text-3xl lg:text-4xl">
                 <Typewriter
-                  words={['MERN Stack developer', 'Problem Solver', 'Creative Coder', 'A Life long learner']}
+                  words={['Front-End developer', 'Problem Solver', 'Creative Coder', 'A Life Long Learner']}
                   loop={true}
                   cursor
                   cursorStyle='_'
@@ -29,12 +26,7 @@ const Hero = () => {
                   deleteSpeed={50}
                   delaySpeed={1000}
                 />
-              </span>
-
-              <div className="flex items-center my-3">
-                {/* <FaLocationDot />
-                <p>Based in Barishal, Bangladesh</p> */}
-              </div>
+              </span><br />
               
               <a href="https://drive.google.com/file/d/17OwmKdJgE_JgutFR09mXALzANxFVqgF7/view?usp=sharing" target='_blank'>
                 <button className="btn text-base py-6 bg-gradient-to-r from-[#471928] via-[#8a002a] to-[#ff2c6d] border-none px-5 rounded-3xl">
@@ -46,6 +38,9 @@ const Hero = () => {
                 <a href="https://www.linkedin.com/in/musfikaoni/" target='_blank'><FaLinkedin /></a>
                 <a href="https://x.com/MusfikaOni" target='_blank'><FaSquareXTwitter /></a>   
               </div>
+            </div>
+            <div className="flex justify-end">
+              <img src={heroPic} className=" lg:h-[400px] md:h-[300px] h-200px  w-auto" />
             </div>
           </div>
         </div>
