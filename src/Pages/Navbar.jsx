@@ -57,7 +57,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn bg-[#FF014F]" target='_blank' href='https://drive.google.com/file/d/17OwmKdJgE_JgutFR09mXALzANxFVqgF7/view'>Resume</a>
+                    <a className="btn bg-gradient-to-r from-[#471928] via-[#8a002a] to-[#ff2c6d] border-none px-5 rounded-3xl" target='_blank' href='https://drive.google.com/file/d/17OwmKdJgE_JgutFR09mXALzANxFVqgF7/view'>Resume</a>
                 </div>
             </div>
         </div>

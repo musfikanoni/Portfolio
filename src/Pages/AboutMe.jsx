@@ -18,7 +18,7 @@ const AboutMe = () => {
 
                                 I’m a lifelong learner and innovator, driven by a desire to contribute to the developer community with new ideas and tools that deliver real value.
                             </p>
-                            <button className="btn bg-[#FF014F]">View My Projects</button>
+                            <button className="btn bg-gradient-to-r from-[#471928] via-[#8a002a] to-[#ff2c6d] border-none px-5 rounded-3xl">View My Projects</button>
                         </div>
                     </div>
                 </div>
