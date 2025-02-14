@@ -18,7 +18,8 @@ const ContactMe = () => {
                                 <fieldset className="fieldset">
                                     <input type="name" className="input w-full" placeholder="Name" />
                                     <input type="email" className="input w-full my-3" placeholder="Email" />
-                                    <textarea className="textarea textarea-bordered w-full " placeholder="Your Message"></textarea>
+                                    <input type="number" className="input w-full my-3" placeholder="Phone number" />
+                                    <textarea className="textarea textarea-bordered w-full " placeholder="Your Message"></textarea>        
                                     <button className="btn bg-gradient-to-r from-[#471928] via-[#8a002a] to-[#ff2c6d] border-none px-5 rounded-3xl mt-4">Login</button>
                                 </fieldset>
                             </div>

@@ -13,23 +13,27 @@ const Hero = () => {
     <div className="hero-bg">
       <div className="max-w-7xl mx-auto" id="hero">
         <div className="hero min-h-screen relative">
-          <div className="hero-content grid grid-cols-1 lg:grid-cols-2 z-0">
-            <div className="">
-              <h1 className="text-3xl text-[#FF014F] font-bold">Hi there, I'm <br /><span className="lg:text-7xl text-3xl"> MUSFIKA NAZNIN ONI</span></h1>
-              <span style={{ color: '#FF014F', fontWeight: 'bold' }} className="text-xl sm:text-2xl md:text-3xl lg:text-4xl">
-                <Typewriter
-                  words={['Front-End developer', 'Problem Solver', 'Creative Coder', 'A Life Long Learner']}
-                  loop={true}
-                  cursor
-                  cursorStyle='_'
-                  typeSpeed={70}
-                  deleteSpeed={50}
-                  delaySpeed={1000}
-                />
-              </span><br />
+          <div className="hero-content grid-flow-col-dense grid grid-cols-1 lg:grid-cols-2 z-0">
+            <div className="md:w-full w-[430px] md:mt-0 mt-56">
+              <h1 className="md:text-3xl text-2xl text-[#FF014F] font-semibold">Hi there, I'm <br />
+                <span className="lg:text-8xl md:text-5xl text-3xl"> MUSFIKA NAZNIN ONI</span>
+              </h1>
+              <div className="pt-5">
+                <span style={{ color: '#FF014F', fontWeight: 'medium' }} className="text-xl sm:text-xl md:text-2xl lg:text-3xl">
+                  <Typewriter
+                    words={['Front-End developer', 'Problem Solver', 'Creative Coder', 'A Life Long Learner']}
+                    loop={true}
+                    cursor
+                    cursorStyle='_'
+                    typeSpeed={70}
+                    deleteSpeed={50}
+                    delaySpeed={1000}
+                  />
+                </span><br />
+              </div>
               
               <a href="https://drive.google.com/file/d/17OwmKdJgE_JgutFR09mXALzANxFVqgF7/view?usp=sharing" target='_blank'>
-                <button className="btn text-base py-6 bg-gradient-to-r from-[#471928] via-[#8a002a] to-[#ff2c6d] border-none px-5 rounded-3xl">
+                <button className="btn my-5 text-base py-6 bg-gradient-to-r from-[#471928] via-[#8a002a] to-[#ff2c6d] border-none px-5 rounded-3xl">
                   Download Resume <HiDownload className='text-xl' /></button>
               </a>
               <div className='flex text-3xl gap-3 mt-3'>
@@ -39,7 +43,7 @@ const Hero = () => {
                 <a href="https://x.com/MusfikaOni" target='_blank'><FaSquareXTwitter /></a>   
               </div>
             </div>
-            <div className="flex justify-end">
+            <div className="flex justify-end lg:mr-10 mr-3 md:-mt-0 -mt-96">
               <img src={heroPic} className=" lg:h-[400px] md:h-[300px] h-200px  w-auto" />
             </div>
           </div>

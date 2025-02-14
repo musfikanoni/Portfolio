@@ -10,7 +10,7 @@ const Projects = () => {
                 <h2 className='text-center text-3xl font-bold'>My Projects</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                     {/* Project 1 */}
-                    <div className="border-gradient">
+                    <div className="ex-border backdrop-blur bg-[#FF014F]/5">
                         <img className='p-5 rounded-lg' src={p1} alt="Project 1" />
                         <div className='pl-5 pb-3'>
                             <h3 className='font-bold text-[#FF014F] text-xl'>MovieHub</h3>
@@ -30,7 +30,7 @@ const Projects = () => {
                     </div>
                     
                     {/* Project 2 */}
-                    <div className="border-gradient">
+                    <div className="ex-border backdrop-blur bg-[#FF014F]/5">
                         <img className='p-5 rounded-lg' src={p2} alt="Project 2" />
                         <div className='pl-5 pb-3'>
                             <h3 className='font-bold text-[#FF014F] text-xl'>ReviewPulse</h3>
@@ -50,7 +50,7 @@ const Projects = () => {
                     </div>
                     
                     {/* Project 3 */}
-                    <div className="border-gradient ">
+                    <div className="ex-border backdrop-blur bg-[#FF014F]/5 ">
                         <img className='p-5 rounded-lg' src={p3} alt="Project 3" />
                         <div className='pl-5 pb-3'>
                             <h3 className='font-bold text-[#FF014F] text-xl'>Adoptopia</h3>

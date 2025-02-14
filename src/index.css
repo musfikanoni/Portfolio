@@ -6,6 +6,8 @@
 body {
     font-family: "Poppins", sans-serif !important;
 }
+
+
 .hero-bg {
     background-image: url('./assets/shape-01.png');
     background-repeat: no-repeat;
@@ -72,4 +74,3 @@ body {
     position: relative;
     z-index: 1; 
   }
-  

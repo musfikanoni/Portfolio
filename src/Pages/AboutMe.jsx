@@ -6,7 +6,7 @@ const AboutMe = () => {
             {/* <h2 className="text-3xl text-center font-semibold">About Me</h2> */}
             <div className="hero min-h-screen">
                 <div className=" max-w-7xl mx-auto ex-border">
-                    <div className=" hero-content rounded-xl grid lg:grid-cols-2 grid-cols-1 backdrop-blur bg-white/5">
+                    <div className=" hero-content rounded-xl grid lg:grid-cols-2 grid-cols-1 backdrop-blur bg-[#FF014F]/5">
                         <div className="rounded-lg">
                             <img
                             src={img}

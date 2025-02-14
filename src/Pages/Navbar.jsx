@@ -94,7 +94,7 @@ const Navbar = () => {
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#FF014F]" fill="none" viewBox="0 0 24 24" stroke="currentColor"> 
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> 
                             </svg>
                         </div>
@@ -111,7 +111,7 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <div className="navbar-end">
+                <div className="navbar-end md:mr-3 mr-3">
                     <a className="btn bg-gradient-to-r from-[#471928] via-[#8a002a] to-[#ff2c6d] border-none px-5 rounded-3xl" target='_blank' href='https://drive.google.com/file/d/17OwmKdJgE_JgutFR09mXALzANxFVqgF7/view'>Resume</a>
                 </div>
             </div>
