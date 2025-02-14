@@ -17,7 +17,6 @@ import node from "../assets/skills/node.png";
 import express from "../assets/skills/express.png";
 import mongo from "../assets/skills/mongoDB.png";
 import jwt from "../assets/skills/jwt.png";
-import { div } from 'motion/react-client';
 
 
 const Skills = () => {
@@ -61,7 +60,7 @@ const Skills = () => {
                         },
                     }}
                 >
-                    <SwiperSlide className=' rounded-lg'>
+                    <SwiperSlide className='rounded-lg'>
                         <div className="flex flex-col justify-center my-10 items-center">
                             <img className="h-18 w-auto" src={html} alt="" />
                             <p className="text-xl mt-3 text-black font-bold">HTML 5</p>
