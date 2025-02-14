@@ -7,7 +7,7 @@ const Projects = () => {
     return (
         <div id="projects">
             <div className="max-w-7xl mx-auto">
-                <h2 className='text-center text-3xl font-bold'>My Projects</h2>
+                <h2 className='text-center text-5xl pb-12 mt-28 text-[#FF014F] font-bold'>My Projects</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                     {/* Project 1 */}
                     <div className="ex-border backdrop-blur bg-[#FF014F]/5">
