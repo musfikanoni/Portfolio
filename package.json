@@ -12,6 +12,7 @@
   "dependencies": {
     "@react-awesome/components": "^1.0.24",
     "@tailwindcss/vite": "^4.0.4",
+    "aos": "^2.3.4",
     "localforage": "^1.10.0",
     "match-sorter": "^8.0.0",
     "motion": "^12.4.1",

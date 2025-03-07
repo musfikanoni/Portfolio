@@ -6,15 +6,26 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FaSquareXTwitter } from 'react-icons/fa6';
 import { Typewriter } from 'react-simple-typewriter';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 
 const Hero = () => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, 
+      once: true,
+    });
+  }, []);
 
   return (
     <div className="hero-bg">
       <div className="max-w-7xl mx-auto" id="hero">
         <div className="hero min-h-screen relative">
           <div className="hero-content grid-flow-col-dense grid grid-cols-1 lg:grid-cols-2 z-0">
-            <div className="md:w-full w-[430px] md:mt-0 mt-56">
+            <div data-aos="fade-right" className="md:w-full w-[430px] md:mt-0 mt-56">
               <h1 className="md:text-3xl text-2xl text-[#FF014F] font-semibold">Hi there, I'm <br />
                 <span className="lg:text-8xl md:text-5xl text-3xl"> MUSFIKA NAZNIN ONI</span>
               </h1>
@@ -43,7 +54,7 @@ const Hero = () => {
                 <a href="https://x.com/MusfikaOni" target='_blank'><FaSquareXTwitter /></a>   
               </div>
             </div>
-            <div className="flex justify-end lg:mr-10 mr-3 md:-mt-0 -mt-96">
+            <div data-aos="fade-left" className="flex justify-end lg:mr-10 mr-3 md:-mt-0 -mt-96">
               <img src={heroPic} className=" lg:h-[400px] md:h-[300px] h-200px  w-auto" />
             </div>
           </div>

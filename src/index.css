@@ -74,3 +74,8 @@ body {
     position: relative;
     z-index: 1; 
   }
+
+  [data-aos] {
+    visibility: visible !important;
+  }
+  
