@@ -112,7 +112,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end md:mr-3 mr-3">
-                    <a className="btn bg-gradient-to-r from-[#471928] via-[#8a002a] to-[#ff2c6d] border-none px-5 rounded-3xl" target='_blank' href='https://drive.google.com/file/d/17OwmKdJgE_JgutFR09mXALzANxFVqgF7/view'>Resume</a>
+                    <a className="btn bg-gradient-to-r from-[#471928] via-[#8a002a] to-[#ff2c6d] border-none px-5 rounded-3xl" target='_blank' href='https://drive.google.com/file/d/1CfsuVz6JenWIoqTniasZD0aTfpgmV2Y0/view?usp=drive_link'>Resume</a>
                 </div>
             </div>
         </div>
