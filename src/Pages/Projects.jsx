@@ -36,7 +36,7 @@ const Projects = () => {
                                     <p>View Code</p>
                                 </div>
                             </a>
-                            <a className="btn bg-gradient-to-r py-6 from-[#471928] via-[#8a002a] to-[#ff2c6d] border-none px-5 rounded-3xl" target='_blank' href="https://ph-assignment10.netlify.app/">Live Preview</a>
+                            <a className="btn bg-gradient-to-r py-6 from-[#471928] via-[#8a002a] to-[#ff2c6d] border-none px-5 rounded-3xl" target='_blank' href="https://moviehub-ent.netlify.app/">Live Preview</a>
                         </div>
                     </div>
                     
@@ -56,7 +56,7 @@ const Projects = () => {
                                     <p>View Code</p>
                                 </div>
                             </a>
-                            <a className="btn py-6 bg-gradient-to-r from-[#471928] via-[#8a002a] to-[#ff2c6d] border-none px-5 rounded-3xl" target='_blank' href="https://ph-assignment-11.netlify.app/">Live Preview</a>
+                            <a className="btn py-6 bg-gradient-to-r from-[#471928] via-[#8a002a] to-[#ff2c6d] border-none px-5 rounded-3xl" target='_blank' href="https://reviewpluse.netlify.app/">Live Preview</a>
                         </div>
                     </div>
                     
@@ -76,7 +76,7 @@ const Projects = () => {
                                     <p>View Code</p>
                                 </div>
                             </a>
-                            <a className="btn py-6 bg-gradient-to-r from-[#471928] via-[#8a002a] to-[#ff2c6d] border-none px-5 rounded-3xl" target='_blank' href="https://ph-assignment-12.netlify.app/">Live Preview</a>
+                            <a className="btn py-6 bg-gradient-to-r from-[#471928] via-[#8a002a] to-[#ff2c6d] border-none px-5 rounded-3xl" target='_blank' href="https://adoptopia.netlify.app/">Live Preview</a>
                         </div>
                     </div>
                 </div>

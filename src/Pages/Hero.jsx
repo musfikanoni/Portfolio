@@ -43,7 +43,7 @@ const Hero = () => {
                 </span><br />
               </div>
               
-              <a href="https://drive.google.com/file/d/17OwmKdJgE_JgutFR09mXALzANxFVqgF7/view?usp=sharing" target='_blank'>
+              <a href="https://drive.google.com/file/d/1HiuB37hjg8awD-6ybrNiRmUuxgH2CUV2/view?usp=sharing" target='_blank'>
                 <button className="btn my-5 text-base py-6 bg-gradient-to-r from-[#471928] via-[#8a002a] to-[#ff2c6d] border-none px-5 rounded-3xl">
                   Download Resume <HiDownload className='text-xl' /></button>
               </a>
