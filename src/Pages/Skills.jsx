@@ -44,8 +44,8 @@ const Skills = () => {
                     className="mySwiper"
                     breakpoints={{
                         //mobile devices
-                        390: {
-                            slidesPerView: 2,
+                        430: {
+                            slidesPerView: 1,
                             spaceBetween: 10,
                         },
                         //tablets
@@ -63,67 +63,67 @@ const Skills = () => {
                     <SwiperSlide className='rounded-lg'>
                         <div className="flex flex-col justify-center my-10 items-center">
                             <img className="h-18 w-auto" src={html} alt="" />
-                            <p className="text-xl mt-3 text-black font-bold">HTML 5</p>
+                            <p className="text-xl mt-3 text-white font-bold">HTML 5</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className=' rounded-lg'>
                         <div className="flex flex-col justify-center my-10 items-center">
                             <img className="h-18" src={css} alt="" />
-                            <p className="text-xl mt-3 text-black font-bold">CSS 3</p>
+                            <p className="text-xl mt-3 text-white font-bold">CSS 3</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className=' rounded-lg'>
                         <div className="flex flex-col justify-center my-10 items-center">
                             <img className="h-14" src={tailwind} alt="" />
-                            <p className="text-xl mt-3 text-black font-bold">Tailwindcss</p>
+                            <p className="text-xl mt-3 text-white font-bold">Tailwindcss</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className=' rounded-lg'>
                         <div className="flex flex-col justify-center my-10 items-center">
                             <img className="h-18" src={bootstrap} alt="" />
-                            <p className="text-xl mt-3 text-black font-bold">Bootstrap</p>
+                            <p className="text-xl mt-3 text-white font-bold">Bootstrap</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className=' rounded-lg'>
                         <div className="flex flex-col justify-center my-10 items-center">
                             <img className="h-18" src={js} alt="" />
-                            <p className="text-xl mt-3 text-black font-bold">JavaScript</p>
+                            <p className="text-xl mt-3 text-white font-bold">JavaScript</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className=' rounded-lg'>
                         <div className="flex flex-col justify-center my-10 items-center">
                             <img className="h-20" src={react} alt="" />
-                            <p className="text-xl mt-3 text-black font-bold">React Js</p>
+                            <p className="text-xl mt-3 text-white font-bold">React Js</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className=' rounded-lg'>
                         <div className="flex flex-col justify-center my-10 items-center">
                             <img className="h-18" src={firebase} alt="" />
-                            <p className="text-xl mt-3 text-black font-bold">Firebase</p>
+                            <p className="text-xl mt-3 text-white font-bold">Firebase</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className=' rounded-lg'>
                         <div className="flex flex-col justify-center my-10 items-center">
                             <img className="h-18" src={node} alt="" />
-                            <p className="text-xl mt-3 text-black font-bold">Node Js</p>
+                            <p className="text-xl mt-3 text-white font-bold">Node Js</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className=' rounded-lg'>
                         <div className="flex flex-col justify-center my-10 items-center">
                             <img className="h-18" src={express} alt="" />
-                            <p className="text-xl mt-3 text-black font-bold">Express Js</p>
+                            <p className="text-xl mt-3 text-white font-bold">Express Js</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className=' rounded-lg'>
                         <div className="flex flex-col justify-center my-10 items-center">
                             <img className="h-18" src={mongo} alt="" />
-                            <p className="text-xl mt-3 text-black font-bold">MongoDB</p>
+                            <p className="text-xl mt-3 text-white font-bold">MongoDB</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className=' rounded-lg'>
                         <div className="flex flex-col justify-center my-10 items-center">
                             <img className="h-18" src={jwt} alt="" />
-                            <p className="text-xl mt-3 text-black font-bold">JWT</p>
+                            <p className="text-xl mt-3 text-white font-bold">JWT</p>
                         </div>
                     </SwiperSlide>
                 </Swiper>
