@@ -17,6 +17,8 @@ import node from "../assets/skills/node.png";
 import express from "../assets/skills/express.png";
 import mongo from "../assets/skills/mongoDB.png";
 import jwt from "../assets/skills/jwt.png";
+import next from "../assets/skills/next.webp";
+import ts from  "../assets/skills/ts.png";
 
 
 const Skills = () => {
@@ -92,8 +94,20 @@ const Skills = () => {
                     </SwiperSlide>
                     <SwiperSlide className=' rounded-lg'>
                         <div className="flex flex-col justify-center my-10 items-center">
+                            <img className="h-18" src={ts} alt="" />
+                            <p className="text-xl mt-3 text-white font-bold">TypeScript</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className=' rounded-lg'>
+                        <div className="flex flex-col justify-center my-10 items-center">
                             <img className="h-20" src={react} alt="" />
                             <p className="text-xl mt-3 text-white font-bold">React Js</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className=' rounded-lg'>
+                        <div className="flex flex-col justify-center my-10 items-center">
+                            <img className="h-20" src={next} alt="" />
+                            <p className="text-xl mt-3 text-white font-bold">Next Js</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className=' rounded-lg'>
