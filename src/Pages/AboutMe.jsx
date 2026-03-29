@@ -12,7 +12,7 @@ const AboutMe = () => {
                             className="max-w-sm shadow-2xl" />
                         </div>
                         <div className="">
-                            <h2 className='text-[#FF014F] text-4xl font-semibold'>About Me</h2>
+                            <h2 className='text-[#FF014F] md:text-4xl text-3xl font-semibold'>About Me</h2>
                             <p className="py-6">
                                 Hello! I’m Musfika Naznin Oni, a passionate Fontend developer specializing React ,Tailwind ,Express mongoDb My focus is on making web development faster, easier, and accessible to all developers. Currently, I’m expanding into backend development to grow as a Fontend development and create seamless, robust web applications.
 

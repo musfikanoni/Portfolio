@@ -18,7 +18,7 @@ const Projects = () => {
     return (
         <div id="projects">
             <div className="max-w-7xl mx-auto overflow-hidden">
-                <h2 className='text-center lg:text-5xl md:text-4xl text-3xl pb-12 mt-28 text-[#FF014F] font-bold'>My Projects</h2>
+                <h2 className='text-center lg:text-5xl md:text-4xl text-3xl pb-12 mt-16 text-[#FF014F] font-bold'>My Projects</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 md:px-0 px-2">
                     {/* Project 1 */}
                     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className="ex-border backdrop-blur bg-[#FF014F]/5">

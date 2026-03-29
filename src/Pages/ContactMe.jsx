@@ -26,13 +26,13 @@ const ContactMe = () => {
   return (
     <div id="contact">
       <div className="max-w-7xl mx-auto overflow-hidden">
-        <h2 className="lg:text-5xl md:text-4xl text-3xl mt-28 font-bold text-[#FF014F] text-center">
+        <h2 className="lg:text-5xl md:text-4xl text-3xl mt-16 font-bold text-[#FF014F] text-center">
           Contact Me
         </h2>
         <div className="hero min-h-screen">
           <div className="hero-content -mt-24 justify-between grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1">
             <div data-aos="fade-right" className="text-center lg:text-left">
-              <p className="py-6">
+              <p className="py-6 lg:mt-0 mt-10">
                 <img src={handshake} alt="" />
               </p>
             </div>
