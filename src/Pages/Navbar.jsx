@@ -90,7 +90,7 @@ const Navbar = () => {
     
     return (
         <div className="backdrop-blur py-3 bg-white/5 sticky z-10 top-0">
-            <div className="navbar max-w-7xl mx-auto">
+            <div className="navbar max-w-7xl mx-auto overflow-hidden">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -112,7 +112,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end md:mr-3 mr-3">
-                    <a className="btn bg-gradient-to-r from-[#471928] via-[#8a002a] to-[#ff2c6d] border-none px-5 rounded-3xl" target='_blank' href='https://drive.google.com/file/d/1HiuB37hjg8awD-6ybrNiRmUuxgH2CUV2/view?usp=sharing'>Resume</a>
+                    <a className="btn bg-gradient-to-r from-[#471928] via-[#8a002a] to-[#ff2c6d] border-none px-5 rounded-3xl" target='_blank' href='https://drive.google.com/file/d/1KrMWQ1Ht6C_fQOOcJSbJ4sO2qOVb35iS/view?usp=sharing'>Resume</a>
                 </div>
             </div>
         </div>

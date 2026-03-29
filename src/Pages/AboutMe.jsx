@@ -3,8 +3,8 @@ import { Link } from 'react-scroll';
 const AboutMe = () => {
     return (
         <div id="aboutme">
-            <div className="hero min-h-screen -mt-16">
-                <div className=" max-w-7xl mx-auto ex-border">
+            <div className="hero min-h-screen -mt-16 md:px-0 px-2">
+                <div className=" max-w-7xl mx-auto overflow-hidden ex-border">
                     <div className=" hero-content rounded-xl grid lg:grid-cols-2 grid-cols-1 backdrop-blur bg-[#FF014F]/5">
                         <div className="rounded-lg flex lg:justify-normal md:justify-center">
                             <img

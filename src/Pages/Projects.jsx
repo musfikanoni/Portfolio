@@ -1,7 +1,7 @@
 import { FaGithub } from 'react-icons/fa';
 import p1 from '../assets/projects/1.png';
 import p2 from '../assets/projects/2.png';
-import p3 from '../assets/projects/3.png';
+// import p3 from '../assets/projects/3.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -17,9 +17,9 @@ const Projects = () => {
 
     return (
         <div id="projects">
-            <div className="max-w-7xl mx-auto">
-                <h2 className='text-center text-5xl pb-12 mt-28 text-[#FF014F] font-bold'>My Projects</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div className="max-w-7xl mx-auto overflow-hidden">
+                <h2 className='text-center lg:text-5xl md:text-4xl text-3xl pb-12 mt-28 text-[#FF014F] font-bold'>My Projects</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 md:px-0 px-2">
                     {/* Project 1 */}
                     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className="ex-border backdrop-blur bg-[#FF014F]/5">
                         <img className='p-5 rounded-lg' src={p1} alt="Project 1" />
@@ -61,7 +61,7 @@ const Projects = () => {
                     </div>
                     
                     {/* Project 3 */}
-                    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className="ex-border backdrop-blur bg-[#FF014F]/5 ">
+                    {/* <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className="ex-border backdrop-blur bg-[#FF014F]/5 ">
                         <img className='p-5 rounded-lg' src={p3} alt="Project 3" />
                         <div className='pl-5 pb-3'>
                             <h3 className='font-bold text-[#FF014F] text-xl'>Adoptopia</h3>
@@ -78,7 +78,7 @@ const Projects = () => {
                             </a>
                             <a className="btn py-6 bg-gradient-to-r from-[#471928] via-[#8a002a] to-[#ff2c6d] border-none px-5 rounded-3xl" target='_blank' href="https://adoptopia.netlify.app/">Live Preview</a>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

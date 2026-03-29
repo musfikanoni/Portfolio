@@ -27,14 +27,15 @@ const Skills = () => {
 
 
     return (
-        <div><h2 className='text-center text-[#FF014F] pb-12 text-5xl font-bold'>My Skills</h2>
+        <div>
+            <h2 className='text-center text-[#FF014F] pb-10 lg:text-5xl md:text-4xl text-3xl lg:mt-0 mt-10  font-bold'>My Skills</h2>
             <div id="skills" className='bg-rose-600/10 backdrop-blur' >
 
-                <section className='px-4 py-7 lg:px-0 max-w-7xl mx-auto'>
+                <section className='px-4 py-7 lg:px-0 max-w-7xl mx-auto overflow-hidden'>
 
                 <Swiper
                     onSwiper={setSwiperRef}
-                    slidesPerView={3}
+                    slidesPerView={1}
                     autoplay={{
                         delay: 1500,
                         disableOnInteraction: false, 

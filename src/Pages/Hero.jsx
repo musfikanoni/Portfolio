@@ -21,13 +21,13 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="hero-bg">
-      <div className="max-w-7xl mx-auto" id="hero">
-        <div className="hero min-h-screen relative">
-          <div className="hero-content grid-flow-col-dense grid grid-cols-1 lg:grid-cols-2 z-0">
+    <div className="hero-bg ">
+      <div className="max-w-7xl mx-auto overflow-hidden " id="hero">
+        <div className="hero min-h-screen relative ">
+          <div className="hero-content grid-flow-col-dense grid grid-cols-1 lg:grid-cols-2 z-0 ">
             <div data-aos="fade-right" className="md:w-full w-[430px] md:mt-0 mt-56">
               <h1 className="md:text-3xl text-2xl text-[#FF014F] font-semibold">Hi there, I'm <br />
-                <span className="lg:text-8xl md:text-5xl text-3xl"> MUSFIKA NAZNIN ONI</span>
+                <span className="lg:text-8xl md:text-5xl text-2xl"> MUSFIKA NAZNIN ONI</span>
               </h1>
               <div className="pt-5">
                 <span style={{ color: '#FF014F', fontWeight: 'medium' }} className="text-xl sm:text-xl md:text-2xl lg:text-3xl">
@@ -50,7 +50,7 @@ const Hero = () => {
               <div className='flex text-3xl gap-3 mt-3'>
                 <a href="mailto:musfikanoni@gmail.com" target='_blank'><MdEmail /></a>
                 <a href="https://github.com/musfikanoni" target='_blank'><FaGithub /></a>
-                <a href="https://www.linkedin.com/in/musfikaoni/" target='_blank'><FaLinkedin /></a>
+                <a href="https://www.linkedin.com/in/musfikanoni/" target='_blank'><FaLinkedin /></a>
                 <a href="https://x.com/MusfikaOni" target='_blank'><FaSquareXTwitter /></a>   
               </div>
             </div>
